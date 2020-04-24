@@ -8,7 +8,7 @@ class Notepad : public QObject
     Q_OBJECT
 public:
     explicit Notepad(QObject *parent = nullptr);
-    void run();
+    void run(int argc, char *argv[]);
 
 signals:
 

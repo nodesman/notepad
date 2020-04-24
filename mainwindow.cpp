@@ -6,6 +6,8 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    this->centralWidget()->layout()->setContentsMargins(0,0,0,0);
+    this->statusBar()->hide();
 }
 
 MainWindow::~MainWindow()
